@@ -1,23 +1,28 @@
 <?php
 
-    namespace Tests;
-    use App\Palindrome;
-    use PHPUnit\Framework\TestCase;
+namespace Tests;
 
-    class PalindromeTest extends TestCase{
+use App\Palindrome;
 
-        public function testPalindrome (){
-            $palindrome = new Palindrome;
+use PHPUnit\Framework\TestCase;
 
-            $this->assertInstanceOf(Palindrome::class, $palindrome);
-        }
-        public function testIsPalindrome()
-        {
-            $palindrome = new Palindrome;
-    
-            $this->assertTrue($palindrome->isPalindrome("ada"));
-        }
-        public function testIsPalindromeLowercase()
+class PalindromeTest extends TestCase
+{
+    public function testPalindrome()
+    {
+        $palindrome = new Palindrome;
+
+        $this->assertInstanceOf(Palindrome::class, $palindrome);
+    }
+
+    public function testIsPalindrome()
+    {
+        $palindrome = new Palindrome;
+
+        $this->assertTrue($palindrome->isPalindrome("Ada"));
+    }
+
+    public function testIsPalindromeLowercase()
     {
         $palindrome = new Palindrome;
 
@@ -28,21 +33,20 @@
     {
         $palindrome = new Palindrome;
 
-        $this->assertTrue($palindrome->isPalindrome("Rotator"));
+        $this->assertTrue($palindrome->isPalindrome("madam"));
     }
 
     public function testIsPalindromeFalse()
     {
         $palindrome = new Palindrome;
 
-        $this->assertFalse($palindrome->isPalindrome("adhvAnikl"));
+        $this->assertFalse($palindrome->isPalindrome("mandelaHG"));
     }
 
     public function testIsPalindromeFalseLowercase()
     {
         $palindrome = new Palindrome;
 
-        $this->assertFalse($palindrome->isPalindrome("football"));
+        $this->assertFalse($palindrome->isPalindrome("journalist"));
     }
-
-    }
+}
