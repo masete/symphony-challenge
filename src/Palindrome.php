@@ -24,4 +24,3 @@ class Palindrome
         return strtolower($word) === strrev(strtolower($word));
     }
 }
-
