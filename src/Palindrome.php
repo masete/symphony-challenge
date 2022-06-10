@@ -1,5 +1,9 @@
 <?php
 
+declare(strict_types=1);
+
+namespace App;
+
 /**
  * A palindrome according to the oxford dictionary is a 
  * word, phrase, or sequence that reads the same backwards as forwards, 
