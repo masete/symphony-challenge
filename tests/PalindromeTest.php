@@ -8,7 +8,7 @@ use PHPUnit\Framework\TestCase;
 
 class PalindromeTest extends TestCase
 {
-    public function testPalindrome()
+    public function testPalindromeInstance()
     {
         $palindrome = new Palindrome;
 

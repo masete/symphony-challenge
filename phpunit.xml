@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <phpunit
+     colors="true"
      backupStaticAttributes="false"
      bootstrap="./vendor/autoload.php"
      cacheTokens="false"
-     colors="true"
      convertErrorsToExceptions="true"
      convertNoticesToExceptions="true"
      convertWarningsToExceptions="true"
@@ -15,7 +15,7 @@
      stopOnSkipped="false"
      verbose="false">
     <testsuites>
-        <testsuite name="Testing Example">
+        <testsuite name="interview challenge">
             <directory>./tests</directory>
         </testsuite>
     </testsuites>
