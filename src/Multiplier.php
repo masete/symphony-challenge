@@ -1,4 +1,8 @@
 <?php
+
+declare(strict_types=1);
+
+namespace App;
 /**
  * The meaning of the word multiplier is a factor that 
  * amplifies or increases the base value of something 
