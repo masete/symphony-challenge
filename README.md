@@ -1,4 +1,8 @@
-[![Build Status](https://travis-ci.org/masete/symphony-challenge.svg?branch=main)](https://travis-ci.org/masete/symphony-challenge) [![codecov](https://codecov.io/gh/masete/symphony-challenge/branch/main/graph/badge.svg)](https://codecov.io/gh/masete/symphony-challenge) [![StyleCI](https://github.styleci.io/repos/154809814/shield?branch=main)](https://github.styleci.io/repos/154809814)
+# Detailed Bug Report.
+## Please click the google sheets link below to access the bug report.
+
+https://docs.google.com/spreadsheets/d/1um4LehwVsbb8rHUFmwsTumBxPnxGwztTaOwbzhY1fSA/edit?usp=sharing
+
 
 # symphony-challenge
 challenge for the interediate QA role am persuing
