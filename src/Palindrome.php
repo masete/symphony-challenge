@@ -17,7 +17,7 @@ class Palindrome
      * using strrev function. if they match, then its a palindrome.
      *
      * @param string $word
-     * @return bool
+     * 
      */
     public function isPalindrome(string $word): bool
     {
