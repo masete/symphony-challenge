@@ -22,4 +22,13 @@ class MultiplierTest extends TestCase
 
         $this->assertIsInt($result);
     }
+    // public function testTrue()
+    // {
+    //     $multiplier = new Multiplier;
+
+    //     $result = $multiplier->ms([2]);
+
+    //     $this->assertFalse($result);
+    // }
+
 }
