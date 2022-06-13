@@ -22,13 +22,34 @@ class MultiplierTest extends TestCase
 
         $this->assertIsInt($result);
     }
+    public function testNotFloat()
+    {
+        $multiplier = new Multiplier;
+
+        $result = $multiplier->ms([2,4,6]);
+        $this->assertIsNotFloat($result);
+    }
+    public function testNumeric()
+    {
+        $multiplier = new Multiplier;
+
+        $result = $multiplier->ms([2,4,6]);
+        $this->assertIsNumeric($result);
+    }
     // public function testTrue()
     // {
     //     $multiplier = new Multiplier;
 
-    //     $result = $multiplier->ms([2]);
+    //     $result = $multiplier->ms([7]);
 
-    //     $this->assertFalse($result);
+    //     $this->assertIsFalse($result);
     // }
+    public function testNotEpty()
+    {
+        $multiplier = new Multiplier;
+
+        $result = $multiplier->ms([2,4,6]);
+        $this->assertNotEmpty($result);
+    }
 
 }
