@@ -20,7 +20,7 @@ composer install
 Run via PHPUnit from the root directory:
 
 ```
-vendor\bin\phpunit
+./vendor/bin/phpunit
 ```
 
 
