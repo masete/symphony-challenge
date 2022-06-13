@@ -36,14 +36,14 @@ class MultiplierTest extends TestCase
         $result = $multiplier->ms([2,4,6]);
         $this->assertIsNumeric($result);
     }
-    // public function testTrue()
-    // {
-    //     $multiplier = new Multiplier;
+    public function testFinite()
+    {
+        $multiplier = new Multiplier;
 
-    //     $result = $multiplier->ms([7]);
+        $result = $multiplier->ms([2,4,6]);
 
-    //     $this->assertIsFalse($result);
-    // }
+        $this->assertFinite($result);
+    }
     public function testNotEpty()
     {
         $multiplier = new Multiplier;
